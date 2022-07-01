@@ -32,11 +32,10 @@
   position: absolute;
 }
 .Home #Progress-Container h3{
-  text-align: center;
-  position: relative;
-  height: 100%;
-  width: 100%;
+  position: absolute;
   font-size: 28px;
-  margin: none;
-  padding: none;
+  margin: 0px;
+  top: 50%;
+  left: 15%;
+  transform: translate(-5%, -50%);
 }
