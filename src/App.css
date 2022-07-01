@@ -1,0 +1,42 @@
+.Home {
+  text-align: center;
+  font-family: sans-serif;
+}
+.Home h1{
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+.Home a{
+  font-size: 40px;
+}
+.Home #Games {
+  text-align: center;
+}
+.Home #Progress {
+  width: 25%;
+  float: left;
+}
+.Home #Progress-Container {
+  height: 66.75px;
+  border: 2px solid lightblue;
+  background-color: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+}
+.Home #Progress-Fill {
+  height: 100%;
+  background-color: lightblue;
+  position: absolute;
+}
+.Home #Progress-Container h3{
+  text-align: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-size: 28px;
+  margin: none;
+  padding: none;
+}
