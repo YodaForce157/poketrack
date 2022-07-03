@@ -100,7 +100,7 @@ const lists = [{
 function Home() {
   return(
     <div className='Home'>
-      <h1>PokeTrack</h1>
+      <h1 id='title'>PokeTrack</h1>
       <div id="games">
         {
           lists.map((game) => <GamePreview game={game}/>)

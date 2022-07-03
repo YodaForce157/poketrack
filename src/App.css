@@ -1,14 +1,17 @@
+/*Home Page*/
 .Home {
   text-align: center;
   font-family: sans-serif;
 }
-.Home h1{
+.Home #title{
   font-size: 65px;
   margin-bottom: 10px;
 }
-.Home a{
-  font-size: 40px;
+.Home #gamelink {
+  font-size: 28px;
 }
+
+/*Games*/
 .Home #Games {
   text-align: center;
 }
