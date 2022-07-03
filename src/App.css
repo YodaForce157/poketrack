@@ -1,14 +1,40 @@
+:root{
+  --text-colour:rgb(70, 209, 255);
+  --box-colour: red;
+  background-color: rgb(57, 55, 55);
+}
+
+/*Hyper links*/
+a:link {
+  color: var(--text-colour);
+  text-decoration: none;
+}
+a:visited{
+  color: var(--text-colour);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--text-colour);
+  text-decoration: none;
+}
+a:active{
+  color: var(--text-colour);
+  text-decoration: none;
+}
+
 /*Home Page*/
 .Home {
   text-align: center;
   font-family: sans-serif;
+  color: var(--text-colour);
+  
 }
 .Home #title{
   font-size: 65px;
   margin-bottom: 10px;
 }
 .Home #gamelink {
-  font-size: 28px;
+  font-size: 40px;
 }
 
 /*Games*/
@@ -21,7 +47,7 @@
 }
 .Home #Progress-Container {
   height: 66.75px;
-  border: 5px solid lightblue;
+  border: 5px solid var(--box-colour);
   background-color: #fff;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -31,7 +57,7 @@
 }
 .Home #Progress-Fill {
   height: 100%;
-  background-color: lightblue;
+  background-color: var(--box-colour);
   position: absolute;
 }
 .Home #Progress-Container h3{
@@ -41,4 +67,23 @@
   top: 50%;
   left: 15%;
   transform: translate(-5%, -50%);
+}
+.Home #FinalTeam img{
+  width: 78.4px;
+  height: 58.8px;
+  margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.Home #FinalTeam{
+  margin-right: 40px;
+  margin-left: 40px;
+  left: 50%;
+}
+.Home #FinalTeam span{
+  margin-right: 40px;
+  margin-left: 40px;
+  left: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
