@@ -32,5 +32,5 @@
   background-color: lightblue;
 }
 .Home #Progress-Container h3{
-  z-index: 5;
+  margin: 0px 0px;
 }
